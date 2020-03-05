@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">informatiqueMobile46</string>
+    <string name="questionnaire_title">Questionnaire</string>
+    <string name="Drama">Drama</string>
+    <string name="Action">Action</string>
+    <string name="Aventure">Aventure</string>
+    <string name="Biopic">Biopic</string>
+    <string name="Disaster">Disaster</string>
+    <string name="Comedy">Comedy</string>
+    <string name="Detective">Detective</string>
+    <string name="Spy">Spy</string>
+    <string name="Fantastic">Fantastic</string>
+    <string name="War">War</string>
+    <string name="Historical">Historical</string>
+    <string name="Horror">Horror</string>
+    <string name="Musical">Musical</string>
+    <string name="Romance">Romance</string>
+    <string name="ScienceFictional">Science-fictional</string>
+    <string name="Superhero">Superhero</string>
+    <string name="Western">Western</string>
+    <string name="Thriller">Thriller</string>
+    <string name="notation1">1</string>
+    <string name="notation2">2</string>
+    <string name="notation3">3</string>
+    <string name="notation4">4</string>
+    <string name="notation5">5</string>
 </resources>
