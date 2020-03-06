@@ -14,7 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/questionnaire_title"
@@ -26,17 +26,20 @@
                 android:layout_marginEnd="113dp"
                 android:layout_marginRight="113dp"
                 android:text="@string/questionnaire_title"
-                android:textSize="30sp" />
+                android:textSize="28sp" />
 
             <TableLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp">
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp">
 
                 <TableRow
                     android:id="@+id/ThrillerRow"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/ThrillerTitle"
@@ -100,13 +103,16 @@
                 <TableRow
                     android:id="@+id/WesternRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/WesternTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Western"
                         android:textSize="14sp" />
 
@@ -165,6 +171,8 @@
                     android:id="@+id/DramaRow"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp"
                     android:paddingRight="10dp">
 
                     <TextView
@@ -172,6 +180,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Drama"
                         android:textSize="14sp" />
 
@@ -229,13 +238,16 @@
                 <TableRow
                     android:id="@+id/ActionRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/ActionTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Action"
                         android:textSize="14sp" />
 
@@ -293,13 +305,16 @@
                 <TableRow
                     android:id="@+id/AventureRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/AventureTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Aventure"
                         android:textSize="14sp" />
 
@@ -357,13 +372,16 @@
                 <TableRow
                     android:id="@+id/BiopicRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/BiopicTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Biopic"
                         android:textSize="14sp" />
 
@@ -421,13 +439,16 @@
                 <TableRow
                     android:id="@+id/DisasterRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/DisasterTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Disaster"
                         android:textSize="14sp" />
 
@@ -485,13 +506,16 @@
                 <TableRow
                     android:id="@+id/ComedyRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/ComedyTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Comedy"
                         android:textSize="14sp" />
 
@@ -549,13 +573,16 @@
                 <TableRow
                     android:id="@+id/DetectiveRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/DetectiveTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Detective"
                         android:textSize="14sp" />
 
@@ -614,6 +641,8 @@
                     android:id="@+id/SpyRow"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp"
                     android:paddingRight="10dp">
 
                     <TextView
@@ -621,6 +650,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Spy"
                         android:textSize="14sp" />
 
@@ -678,13 +708,16 @@
                 <TableRow
                     android:id="@+id/FantasticRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/FantasticTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Fantastic"
                         android:textSize="14sp" />
 
@@ -743,6 +776,8 @@
                     android:id="@+id/WarRow"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp"
                     android:paddingRight="10dp">
 
                     <TextView
@@ -750,6 +785,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/War"
                         android:textSize="14sp" />
 
@@ -807,13 +843,16 @@
                 <TableRow
                     android:id="@+id/HistoricalRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/HistoricalTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Historical"
                         android:textSize="14sp" />
 
@@ -872,6 +911,8 @@
                     android:id="@+id/HorrorRow"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp"
                     android:paddingRight="10dp">
 
                     <TextView
@@ -879,6 +920,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Horror"
                         android:textSize="14sp" />
 
@@ -936,13 +978,16 @@
                 <TableRow
                     android:id="@+id/MusicalRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/MusicalTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Musical"
                         android:textSize="14sp" />
 
@@ -1000,13 +1045,16 @@
                 <TableRow
                     android:id="@+id/RomanceRow"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/RomanceTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
                         android:text="@string/Romance"
                         android:textSize="14sp" />
 
@@ -1064,7 +1112,9 @@
                 <TableRow
                     android:id="@+id/ScienceFictionalRow"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp">
 
                     <TextView
                         android:id="@+id/ScienceFictionalTitle"
@@ -1129,6 +1179,8 @@
                     android:id="@+id/SuperheroRow"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+android:layout_marginBottom="10dp"
                     android:paddingRight="0dp">
 
                     <TextView
